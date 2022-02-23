@@ -7,7 +7,7 @@ import 'dart:io';
   int n2 = int.parse (stdin.readLineSync()!);
 
   print("Digite uma operação");
-  String op = stdin.readLineSync()!);
+  String op = stdin.readLineSync()!;
 
 
  switch(op) {
@@ -22,10 +22,11 @@ import 'dart:io';
     num res = n1-n2;
     print("o resutado é $res");
     break;
-    
+
     case '*':
     num res = n1 * n2;
     print("resutado é $res");
    break;
+
     }
   }
